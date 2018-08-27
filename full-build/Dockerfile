@@ -16,4 +16,4 @@ RUN wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz && \
 	make -j8 && \
 	make install
 
-CMD ["python3.6", "my-app.py"]
+CMD python3.6 my-app.py

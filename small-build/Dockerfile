@@ -4,4 +4,4 @@ WORKDIR /app
 
 ADD my-app.py /app
 
-CMD ["python3.6", "my-app.py"]
+CMD python3.6 my-app.py
